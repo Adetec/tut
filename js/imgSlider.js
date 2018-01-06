@@ -41,3 +41,14 @@ var len=images.length+1;
 document.getElementById("legend").innerHTML=legend[num]+" "+cum+"/"+len;
 
 }
+
+var coucou = 20;
+
+function test() {
+    for (let i = 0; i < coucou; i++) {
+		document.getElementById("hello").innerHTML=document.write('Hello World<br>');     
+        i++;
+        
+    }
+        
+}
